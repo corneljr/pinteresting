@@ -5,6 +5,8 @@ $navbar-default-bg: #FFF;
 $navbar-default-link-color: #9b59b6;
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 $jumbotron-bg: white;
+$panel-primary-heading-bg: #9b59b6;
+$btn-primary-bg: #9b59b6;
 
 @import "bootstrap";
 
@@ -14,4 +16,16 @@ $jumbotron-bg: white;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.panel-body {
+	background-color: white;
+}
+
+.panel-heading {
+	background-color: #9b59b6;
+}
+
+.btn .btn-primary {
+	background-color: #9b59b6;
 }
